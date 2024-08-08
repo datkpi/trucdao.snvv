@@ -575,6 +575,28 @@ body {
 	}
 }
 
+.side-image {
+	position: fixed;
+	top: 0;
+	width: 350px; /* Adjust the width as needed */
+	height: auto;
+	z-index: 1000;
+}
+.hidden {
+    display: none;
+}
+.left-image {
+    left: 0;
+    bottom: 0;
+	width: 450px; /* Adjust the width as needed */
+	height: auto;
+    position: fixed;
+	z-index: 1000;
+}
+.right-image {
+	right: 0;
+}
+
 
 /*after music*/
 .bulb-glow-yellow-after {
